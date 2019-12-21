@@ -1,0 +1,67 @@
+.footer {
+  background: url("/assets/images/rectangle-6.svg");
+  &::before {
+    content: "";
+    height: 94.5px;
+    background: url("/assets/images/bg-waves-footer.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+  }
+  .box {
+    max-width: 750px;
+    padding-top: 100px;
+
+    h2 {
+      font-family: "Lato";
+      font-size: 32px;
+      font-weight: 900;
+      text-align: center;
+      color: #4d4d4d;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: "Lato";
+      font-size: 17px;
+      line-height: 1.53;
+      text-align: center;
+      color: #939393;
+      max-width: 530px;
+      margin: 30px auto;
+    }
+    .signup {
+      height: 40px;
+      line-height: 40px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      max-width: 225px;
+      border-radius: 3px;
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.06),
+        0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      background-color: #d92f26;
+      border: 0;
+      color: $white;
+      width: 100%;
+      font-family: "Lato";
+      font-size: 12px;
+      text-transform: uppercase;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: 200px;
+    }
+  }
+  .credits {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 15px;
+    line-height: 1.73;
+    color: #939393;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+    a {
+      color: #4d4d4d;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.intro .bg {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-image: url("/assets/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/*# sourceMappingURL=intro.css.map */

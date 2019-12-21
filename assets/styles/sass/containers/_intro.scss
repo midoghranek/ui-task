@@ -1,0 +1,138 @@
+.intro {
+  padding-top: 70px;
+  .bg {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-image: url("/assets/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    z-index: -1;
+  }
+  header {
+    height: 60px;
+    margin-bottom: 80px;
+    .logo {
+      background: url("/assets/images/logo.svg") no-repeat;
+      height: 60px;
+      width: 160px;
+    }
+  }
+  .contents {
+    color: $white;
+    max-width: 529px;
+    h2 {
+      font-size: 38px;
+      font-weight: 800;
+      text-transform: uppercase;
+      position: relative;
+      &::after {
+        content: "";
+        width: 306px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: $white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+    p {
+      font-family: "Lato";
+      font-size: 17px;
+      line-height: 1.53;
+    }
+  }
+  .inner-intro {
+    display: flex;
+    justify-content: space-between;
+    .form {
+      .formbox {
+        border-radius: 5px;
+        box-shadow: 0 6px 67px 0 rgba(11, 116, 55, 0.14);
+        background-color: $white;
+        max-width: 440px;
+        padding: 40px 60px;
+        .head {
+          h3 {
+            width: 105.2px;
+            height: 78px;
+            transform: rotate(-3deg);
+            font-family: "Lato";
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 0.93;
+            letter-spacing: normal;
+            text-align: center;
+            text-transform: uppercase;
+            color: #4d4d4d;
+            margin: 0 auto;
+          }
+          p {
+            text-align: center;
+            color: #888888;
+          }
+        }
+        form {
+          margin-top: 50px;
+          input[type="text"],
+          input[type="email"] {
+            border: 0;
+            border-bottom: 1px solid #888888;
+            width: 100%;
+            height: 18px;
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: normal;
+            color: #888888;
+            margin-bottom: 35px;
+            padding-bottom: 10px;
+            height: 40px;
+            &:focus {
+              outline: 0;
+            }
+          }
+          .checki {
+            font-family: "Lato";
+            font-size: 13px;
+            font-weight: normal;
+            color: #888888;
+          }
+          .after-text {
+            font-family: "Lato";
+            font-size: 13px;
+            line-height: 23px;
+            font-weight: normal;
+            color: #888888;
+            margin-bottom: 30px;
+          }
+          input[type="submit"] {
+            height: 40px;
+            border-radius: 3px;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.06),
+              0 1px 2px 0 rgba(0, 0, 0, 0.1);
+            background-color: #d92f26;
+            border: 0;
+            color: $white;
+            width: 100%;
+            font-family: "Lato";
+            font-size: 12px;
+            cursor: pointer;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .more {
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: normal;
+        color: #939393;
+        text-align: center;
+        margin-top: 40px;
+      }
+    }
+  }
+}

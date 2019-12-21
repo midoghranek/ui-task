@@ -1,0 +1,38 @@
+.allinone {
+  margin-top: 150px;
+  text-align: center;
+  .box {
+    background: url("/assets/images/particles.svg") no-repeat;
+    background-position: 42% 19%;
+  }
+  h3 {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #b4b4b4;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-family: "Lato";
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    color: #4d4d4d;
+    text-transform: uppercase;
+  }
+  .images {
+    position: relative;
+    .card {
+      position: absolute;
+      left: 0;
+      top: 70px;
+    }
+    .iphone {
+      position: absolute;
+      right: 0;
+      top: 50px;
+    }
+  }
+}

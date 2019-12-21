@@ -1,0 +1,63 @@
+.testimonials {
+  margin-top: 150px;
+  background: url("/assets/images/test-bg.png") no-repeat;
+  height: 570px;
+  background-size: cover;
+  color: $white;
+  .comment {
+    padding-top: 180px;
+    .comment-text {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.64;
+      text-align: center;
+      &::after {
+        content: "";
+        width: 68px;
+        height: 4px;
+        background-color: $white;
+        display: block;
+        margin: 20px auto;
+      }
+    }
+    .credits {
+      text-align: center;
+      .name {
+        font-size: 18px;
+      }
+      .place {
+        font-size: 14px;
+      }
+    }
+  }
+  .photos-tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    .tab {
+      padding: 5px;
+      position: relative;
+      a {
+        overflow: hidden;
+        display: block;
+        img {
+          border-radius: 100%;
+        }
+      }
+      &.active {
+        &::after {
+          content: "";
+          width: 16px;
+          height: 16px;
+          border: solid 3px $white;
+          background-color: #d92f26;
+          display: block;
+          border-radius: 100%;
+          position: absolute;
+          bottom: 15px;
+          right: 15px;
+        }
+      }
+    }
+  }
+}
