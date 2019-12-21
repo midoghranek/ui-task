@@ -15,6 +15,12 @@ body .box {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  body .box {
+    padding: 0 22px;
+  }
+}
+
 body .intro {
   padding-top: 70px;
 }
@@ -43,9 +49,23 @@ body .intro header .logo {
   width: 160px;
 }
 
+@media screen and (max-width: 768px) {
+  body .intro header .logo {
+    width: 106px;
+    height: 41px;
+    background-size: cover;
+  }
+}
+
 body .intro .contents {
   color: #ffffff;
   max-width: 529px;
+}
+
+@media screen and (max-width: 768px) {
+  body .intro .contents {
+    margin-bottom: 50px;
+  }
 }
 
 body .intro .contents h2 {
@@ -55,15 +75,26 @@ body .intro .contents h2 {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  body .intro .contents h2 {
+    font-size: 26px;
+  }
+}
+
 body .intro .contents h2::after {
   content: "";
   width: 306px;
   height: 4px;
   border-radius: 2px;
   background-color: #ffffff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  body .intro .contents h2::after {
+    width: 206px;
+    margin: 15px auto 0;
+  }
 }
 
 body .intro .contents p {
@@ -79,6 +110,12 @@ body .intro .inner-intro {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  body .intro .inner-intro {
+    display: block;
+  }
 }
 
 body .intro .inner-intro .form .formbox {
@@ -179,6 +216,12 @@ body .benefits {
   margin-top: -250px;
 }
 
+@media screen and (max-width: 768px) {
+  body .benefits {
+    margin-top: 100px;
+  }
+}
+
 body .benefits h2 {
   font-family: "Lato";
   font-size: 32px;
@@ -255,8 +298,27 @@ body .stats .box .inner-stats {
   margin-top: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  body .stats .box .inner-stats {
+    display: block;
+  }
+}
+
 body .stats .box .inner-stats .statbox {
   width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  body .stats .box .inner-stats .statbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 body .stats .box .inner-stats .statbox .shapbox {
@@ -282,6 +344,12 @@ body .stats .box .inner-stats .statbox .shapbox .percent {
   line-height: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  body .stats .box .inner-stats .statbox .shapbox .percent {
+    display: none;
+  }
+}
+
 body .stats .box .inner-stats .statbox .shapbox .percent .plus {
   color: #d92f26;
 }
@@ -292,6 +360,12 @@ body .stats .box .inner-stats .statbox p {
   font-weight: normal;
   line-height: 1.53;
   color: #888888;
+}
+
+@media screen and (max-width: 768px) {
+  body .stats .box .inner-stats .statbox p {
+    max-width: 250px;
+  }
 }
 
 body .stats .box .inner-stats .statbox.sb1 .shape {
@@ -410,11 +484,23 @@ body .testimonials .comment {
   padding-top: 180px;
 }
 
+@media screen and (max-width: 768px) {
+  body .testimonials .comment {
+    padding-top: 150px;
+  }
+}
+
 body .testimonials .comment .comment-text {
   font-size: 22px;
   font-weight: 800;
   line-height: 1.64;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body .testimonials .comment .comment-text {
+    font-size: 16px;
+  }
 }
 
 body .testimonials .comment .comment-text::after {
@@ -508,16 +594,34 @@ body .allinone .images {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  body .allinone .images img {
+    max-width: 100%;
+  }
+}
+
 body .allinone .images .card {
   position: absolute;
   left: 0;
   top: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  body .allinone .images .card {
+    width: 75px;
+  }
+}
+
 body .allinone .images .iphone {
   position: absolute;
   right: 0;
   top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  body .allinone .images .iphone {
+    width: 75px;
+  }
 }
 
 body .footer {

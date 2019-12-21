@@ -19,25 +19,38 @@
       background: url("/assets/images/logo.svg") no-repeat;
       height: 60px;
       width: 160px;
+      @media screen and (max-width: 768px) {
+        width: 106px;
+        height: 41px;
+        background-size: cover;
+      }
     }
   }
   .contents {
     color: $white;
     max-width: 529px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 50px;
+    }
     h2 {
       font-size: 38px;
       font-weight: 800;
       text-transform: uppercase;
       position: relative;
+      @media screen and (max-width: 768px) {
+        font-size: 26px;
+      }
       &::after {
         content: "";
         width: 306px;
         height: 4px;
         border-radius: 2px;
         background-color: $white;
-        position: absolute;
-        bottom: 0;
-        left: 0;
+        display: block;
+        @media screen and (max-width: 768px) {
+          width: 206px;
+          margin: 15px auto 0;
+        }
       }
     }
     p {
@@ -49,6 +62,9 @@
   .inner-intro {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
     .form {
       .formbox {
         border-radius: 5px;

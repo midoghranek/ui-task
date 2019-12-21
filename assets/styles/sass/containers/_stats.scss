@@ -16,8 +16,17 @@
       display: flex;
       justify-content: space-between;
       margin-top: 70px;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
       .statbox {
         width: 300px;
+        @media screen and (max-width: 768px) {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin-bottom: 50px;
+        }
         .shapbox {
           display: flex;
           justify-content: space-between;
@@ -31,6 +40,9 @@
             width: 160px;
             height: 100px;
             line-height: 100px;
+            @media screen and (max-width: 768px) {
+              display: none;
+            }
             .plus {
               color: #d92f26;
             }
@@ -42,6 +54,9 @@
           font-weight: normal;
           line-height: 1.53;
           color: #888888;
+          @media screen and (max-width: 768px) {
+            max-width: 250px;
+          }
         }
         &.sb1 {
           .shape {

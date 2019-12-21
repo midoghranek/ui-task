@@ -11,6 +11,9 @@ body {
   .box {
     max-width: 1140px;
     margin: 0 auto;
+    @media screen and (max-width: 768px) {
+      padding: 0 22px;
+    }
   }
   @import "containers/intro";
   @import "containers/benefits";
@@ -19,3 +22,5 @@ body {
   @import "containers/allinone";
   @import "containers/footer";
 }
+
+@import "constants/responsive";
