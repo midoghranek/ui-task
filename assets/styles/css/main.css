@@ -15,7 +15,13 @@ body .box {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1140px) {
+  body .box {
+    max-width: 990px;
+  }
+}
+
+@media screen and (max-width: 990px) {
   body .box {
     padding: 0 22px;
   }
@@ -365,6 +371,7 @@ body .stats .box .inner-stats .statbox p {
 @media screen and (max-width: 768px) {
   body .stats .box .inner-stats .statbox p {
     max-width: 250px;
+    padding-left: 15px;
   }
 }
 

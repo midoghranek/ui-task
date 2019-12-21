@@ -11,7 +11,10 @@ body {
   .box {
     max-width: 1140px;
     margin: 0 auto;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1140px) {
+      max-width: 990px;
+    }
+    @media screen and (max-width: 990px) {
       padding: 0 22px;
     }
   }
@@ -22,5 +25,3 @@ body {
   @import "containers/allinone";
   @import "containers/footer";
 }
-
-@import "constants/responsive";
