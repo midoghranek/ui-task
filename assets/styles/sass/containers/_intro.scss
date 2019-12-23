@@ -58,7 +58,7 @@
       }
     }
     p {
-      font-family: "Lato";
+      font-family: $second-font;
       font-size: 17px;
       line-height: 1.53;
     }
@@ -81,7 +81,7 @@
             width: 105.2px;
             height: 78px;
             transform: rotate(-3deg);
-            font-family: "Lato";
+            font-family: $second-font;
             font-size: 28px;
             font-weight: normal;
             line-height: 0.93;
@@ -116,13 +116,13 @@
             }
           }
           .checki {
-            font-family: "Lato";
+            font-family: $second-font;
             font-size: 13px;
             font-weight: normal;
             color: #888888;
           }
           .after-text {
-            font-family: "Lato";
+            font-family: $second-font;
             font-size: 13px;
             line-height: 23px;
             font-weight: normal;
@@ -134,11 +134,11 @@
             border-radius: 3px;
             box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.06),
               0 1px 2px 0 rgba(0, 0, 0, 0.1);
-            background-color: #d92f26;
+            background-color: $sub-color;
             border: 0;
             color: $white;
             width: 100%;
-            font-family: "Lato";
+            font-family: $second-font;
             font-size: 12px;
             cursor: pointer;
             text-transform: uppercase;

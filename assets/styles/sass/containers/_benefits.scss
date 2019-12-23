@@ -4,7 +4,7 @@
     margin-top: 100px;
   }
   h2 {
-    font-family: "Lato";
+    font-family: $second-font;
     font-size: 32px;
     font-weight: normal;
     color: #4d4d4d;
@@ -15,7 +15,7 @@
       width: 68px;
       height: 3px;
       border-radius: 2px;
-      background-color: #d92f26;
+      background-color: $sub-color;
       position: absolute;
       bottom: -18px;
       left: 0;
@@ -27,7 +27,7 @@
     margin-top: 42px;
     list-style: none;
     li {
-      font-family: "Lato";
+      font-family: $second-font;
       font-size: 17px;
       font-weight: normal;
       color: #888888;

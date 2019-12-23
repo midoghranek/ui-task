@@ -4,7 +4,7 @@
     border-top: 1px solid #d8d8d8;
     padding-top: 50px;
     h3 {
-      font-family: "Lato";
+      font-family: $second-font;
       font-size: 14px;
       font-weight: normal;
       text-align: center;
@@ -32,7 +32,7 @@
           justify-content: space-between;
           align-items: center;
           .percent {
-            font-family: "Lato";
+            font-family: $second-font;
             font-size: 34px;
             font-weight: bold;
             letter-spacing: -2px;
@@ -44,12 +44,12 @@
               display: none;
             }
             .plus {
-              color: #d92f26;
+              color: $sub-color;
             }
           }
         }
         p {
-          font-family: "Lato";
+          font-family: $second-font;
           font-size: 17px;
           font-weight: normal;
           line-height: 1.53;
@@ -82,7 +82,7 @@
             }
             .s3 {
               height: 57.5px;
-              border: solid 23px #0d9b49;
+              border: solid 23px $main-color;
               height: 100px;
               width: 50px;
               border-bottom-right-radius: 100px;
@@ -98,7 +98,7 @@
             * {
               margin-bottom: 10px;
               height: 12px;
-              background-color: #0d9b49;
+              background-color: $main-color;
               display: block;
               border-radius: 50px;
             }
@@ -126,7 +126,7 @@
             align-items: end;
             * {
               width: 12px;
-              background-color: #0d9b49;
+              background-color: $main-color;
               display: block;
               border-radius: 50px;
             }
