@@ -458,7 +458,6 @@ body .stats .box .inner-stats .statbox.sb3 .shape {
 }
 
 body .stats .box .inner-stats .statbox.sb3 .shape * {
-  margin-bottom: 10px;
   width: 12px;
   background-color: #0d9b49;
   display: block;
