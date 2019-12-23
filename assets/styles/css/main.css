@@ -42,6 +42,13 @@ body .intro .bg {
   top: -200px;
   left: 0;
   z-index: -1;
+  min-height: 860px;
+}
+
+@media screen and (max-width: 768px) {
+  body .intro .bg {
+    min-height: none;
+  }
 }
 
 body .intro header {
